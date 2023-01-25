@@ -90,6 +90,7 @@ install_base() {
 }
 
 install_proton() {
+        rm -rf /usr/bin/proton
         wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
         chmod +x /usr/bin/proton
 }
