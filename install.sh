@@ -100,4 +100,4 @@ install_base
 
 install_proton
 
-echo -e "${green}Nhập 'proton' để sử dụng."
+echo -e "${green}Nhập 'proton' để sử dụng.${plain}"
