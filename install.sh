@@ -101,4 +101,9 @@ install_base
 
 install_proton
 
-echo -e "${green}Nhập 'proton' để sử dụng.${plain}"
+if [ -s /usr/bin/proton ]
+then
+    echo -e "${green}Nhập 'proton' để sử dụng.${plain}"
+else
+    echo -e "${green}Liên lạc https://fb.me/KernelPanix để báo lỗi.${plain}"
+fi
