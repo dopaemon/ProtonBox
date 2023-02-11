@@ -36,7 +36,7 @@ arch=$(arch)
 if [[ $arch == "x86_64" || $arch == "x64" || $arch == "amd64" ]]; then
     arch="amd64"
 elif [[ $arch == "aarch64" || $arch == "arm64" ]]; then
-    arch="aarch64"
+    arch="arm64"
 else
     echo -e "${red}Hệ thống không được nhận dạng: ${arch}${plain}"
     exit 2
