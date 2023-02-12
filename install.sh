@@ -76,13 +76,13 @@ fi
 install_base() {
     if [[ x"${release}" == x"centos" ]]; then
         yum install epel-release -y
-        yum install wget curl unzip tar crontabs git socat yum-utils device-mapper-persistent-data lvm2 -y
-        yum-config-manager  --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+        yum install wget curl ufw unzip tar crontabs git socat yum-utils device-mapper-persistent-data lvm2 -y
+        yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
         systemctl enable docker
         systemctl start docker
     else
         apt update -y
-        apt install wget curl unzip tar cron git socat ca-certificates gnupg lsb-release -y
+        apt install wget ufw curl unzip tar cron git socat ca-certificates gnupg lsb-release -y
         curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
         echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
         apt-get update
