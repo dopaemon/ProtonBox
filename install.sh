@@ -14,7 +14,7 @@ cur_dir=$(pwd)
 if [[ -f /etc/redhat-release ]]; then
     release="centos"
 elif cat /etc/issue | grep -Eqi "armbian"; then
-    release="armbian"
+    release="debian"
 elif cat /etc/issue | grep -Eqi "debian"; then
     release="debian"
 elif cat /etc/issue | grep -Eqi "ubuntu"; then
