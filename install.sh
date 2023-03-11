@@ -76,6 +76,7 @@ fi
 install_base() {
     if [[ x"${release}" == x"centos" ]]; then
         yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+        yum update
         yum install epel-release -y
         yum install wget curl ufw tmux unzip tar crontabs git socat yum-utils device-mapper-persistent-data lvm2 docker-ce docker-ce-cli containerd.io -y
         systemctl enable docker
