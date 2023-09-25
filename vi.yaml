@@ -1,0 +1,36 @@
+helloWorld: Xin chào, thế giới!
+loi_khong_xac_dinh: Lỗi không xác định
+chon_panel_ban_dung: Chọn panel bạn dùng
+chon_mot_tuy_chon: Chọn một tùy chọn
+cai_dat_xrayr: Cài đặt XrayR
+cai_dat_soga: Cài đặt Soga
+cai_dat_xui: Cài đặt X-UI
+tat_ipv6: Tắt IPv6
+tuyen_bo_mien_tru_trach_nhiem: Tuyên bố miễn trừ trách nhiệm
+dong_gop_lien_he: Đóng góp - Liên hệ
+thoat: Thoát
+chon_nodetype: Chọn NodeType
+nhap_noi_dung_file: Nhập nội dung file
+loi_khi_ghi_vao_tep: Lỗi khi ghi vào tệp
+ban_muon_bao_nhieu_port: Bạn muốn bao nhiêu Port
+chon_it_nhat_mot_lua_chon: Chọn ít nhất một lựa chọn
+loi: Lỗi
+vui_long_chon_lai: Vui lòng chọn lại
+nhap_api_host: Nhập API host
+nhap_api_key: Nhập API key
+nhap_nodeid_2: Nhập NodeID 2
+nhap_subdomain: Nhập Subdomain
+nhap_gioi_han_toc_do: Nhập giới hạn tốc độ
+help_1: Nhập 0 là không giới hạn tốc độ
+help_2: Tốc độ tính bằng (Mbps)
+nhap_gioi_han_thiet_bi: Nhập giới hạn thiết bị
+help_3: Nhập 0 là không giới hạn thiết bị
+text_1: ProtonBox Không phải là binary miễn phí hoàn toàn. Chúng tôi không thu thập dữ liệu nhưng sẽ thu thập Bandwith, Xin cảm ơn
+enter_de_thoat: Nhấn enter để thoát
+text_2: Cảm ơn bạn đã ủng hộ dự án
+text_3: Paypal https://www.paypal.me/dopaemon
+text_4: ACB 5613177
+text_5: Telegram https://t.me/KernelPanix
+text_6: Danh sách Ủng Hộ
+can_install_cac_yeu_cau_can_thiet: Cần cài đặt các yêu cầu cần thiết
+chay_lenh_sau: Chạy lệnh sau

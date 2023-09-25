@@ -1,0 +1,36 @@
+helloWorld: Hello, World!
+loi_khong_xac_dinh: An unknown error
+chon_panel_ban_dung: Select the panel you use
+chon_mot_tuy_chon: Choose an option
+cai_dat_xrayr: Install XrayR
+cai_dat_soga: Install Soga
+cai_dat_xui: Install X-UI
+tat_ipv6: Disable IPv6
+tuyen_bo_mien_tru_trach_nhiem: Disclaimer
+dong_gop_lien_he: Donate - Contact
+thoat: Exit
+chon_nodetype: Select NodeType
+nhap_noi_dung_file: Enter file content
+loi_khi_ghi_vao_tep: Error writing to file
+ban_muon_bao_nhieu_port: How many Ports do you want
+chon_it_nhat_mot_lua_chon: Select at least one option
+loi: Error
+vui_long_chon_lai: Please select again
+nhap_api_host: Enter host API
+nhap_api_key: Enter host Key
+nhap_nodeid: Enter NodeID
+nhap_subdomain: Enter Subdomain
+nhap_gioi_han_toc_do: Enter speed limit
+help_1: Enter 0 for no speed limit
+help_2: Speed ​​in (Mbps)
+nhap_gioi_han_thiet_bi: Enter device limits
+help_3: Enter 0 for unlimited devices
+text_1: ProtonBox is not a completely free binary. We do not collect data but will collect Bandwith, Thank you
+enter_de_thoat: Enter to Exit
+text_2: Thank you for your support of the project
+text_3: Paypal https://www.paypal.me/dopaemon
+text_4: ACB 5613177
+text_5: Telegram https://t.me/KernelPanix
+text_6: Donate List
+can_install_cac_yeu_cau_can_thiet: Necessary requirements have not been installed
+chay_lenh_sau: Run the following command
