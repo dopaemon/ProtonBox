@@ -18,6 +18,7 @@ loi: Lỗi
 vui_long_chon_lai: Vui lòng chọn lại
 nhap_api_host: Nhập API host
 nhap_api_key: Nhập API key
+nhap_nodeid: Nhập NodeID 1
 nhap_nodeid_2: Nhập NodeID 2
 nhap_subdomain: Nhập Subdomain
 nhap_gioi_han_toc_do: Nhập giới hạn tốc độ
