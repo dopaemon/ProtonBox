@@ -107,6 +107,14 @@ install_base
 
 install_proton
 
+if [ -s /opt/ProtonBox/languages ]
+then
+    rm -rf /opt/ProtonBox/languages
+    git clone -b languages --single-branch --depth=1 https://github.com/dopaemon/ProtonBox.git /opt/ProtonBox/languages
+else
+    git clone -b languages --single-branch --depth=1 https://github.com/dopaemon/ProtonBox.git /opt/ProtonBox/languages
+fi
+
 if [ -s /usr/bin/proton ]
 then
     echo -e "${green}Nhập 'proton' để sử dụng.${plain}"
