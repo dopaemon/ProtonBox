@@ -3,7 +3,7 @@
 - You need to copy the en.yaml file to your language (name is `other.yaml`).
 - Example:
 ```example
-cp -r en.yaml -> other.yaml
+cp -r en.yaml other.yaml
 ```
 - Next is to translate the `other.yaml` file into your language
 - Next copy the translated `languages` folder to /root/
