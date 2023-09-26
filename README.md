@@ -11,6 +11,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/dopaemon/ProtonBox/install/ins
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/dopaemon/ProtonBox/install/install.sh)
 ```
+## Traslate
+### [**How To Translate**](https://github.com/dopaemon/ProtonBox/tree/languages)
+
 ## Donate
 Name: ```TRAN NGUYEN TUAN ANH```
 
