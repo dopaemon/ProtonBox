@@ -1,8 +1,14 @@
 # ProtonBox
 
+# [**Hướng dẫn dùng ProtonBox Cũ**](https://youtu.be/QkuMvPy8dVY?si=k8iXwGo8o4Crma2i)
+
 ## Cách cài đặt ProtonBox
-Chạy tập lệnh này:
+### Chạy tập lệnh này để install ProtonBox cũ:
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/dopaemon/ProtonBox/install/install_old.sh)
 ```
+### Chạy tập lệnh này để install ProtonBox:
+```bash
 bash <(curl -Ls https://raw.githubusercontent.com/dopaemon/ProtonBox/install/install.sh)
 ```
 ## Donate
