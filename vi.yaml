@@ -11,6 +11,8 @@ dong_gop_lien_he: Đóng góp - Liên hệ
 thoat: Thoát
 chon_nodetype: Chọn NodeType
 nhap_noi_dung_file: Nhập nội dung file
+nhap_noi_dung_file_cert: Nhập nội dung file cert
+nhap_noi_dung_file_key: Nhập nội dung file key
 loi_khi_ghi_vao_tep: Lỗi khi ghi vào tệp
 ban_muon_bao_nhieu_port: Bạn muốn bao nhiêu Port
 chon_it_nhat_mot_lua_chon: Chọn ít nhất một lựa chọn

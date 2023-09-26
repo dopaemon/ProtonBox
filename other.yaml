@@ -11,6 +11,8 @@ dong_gop_lien_he:
 thoat: 
 chon_nodetype: 
 nhap_noi_dung_file: 
+nhap_noi_dung_file_cert: 
+nhap_noi_dung_file_key: 
 loi_khi_ghi_vao_tep: 
 ban_muon_bao_nhieu_port: 
 chon_it_nhat_mot_lua_chon: 

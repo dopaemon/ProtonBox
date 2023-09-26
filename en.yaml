@@ -11,6 +11,8 @@ dong_gop_lien_he: Donate - Contact
 thoat: Exit
 chon_nodetype: Select NodeType
 nhap_noi_dung_file: Enter file content
+nhap_noi_dung_file_cert: Enter file cert content
+nhap_noi_dung_file_key: Enter file key content
 loi_khi_ghi_vao_tep: Error writing to file
 ban_muon_bao_nhieu_port: How many Ports do you want
 chon_it_nhat_mot_lua_chon: Select at least one option
