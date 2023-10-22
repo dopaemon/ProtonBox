@@ -41,3 +41,6 @@ dang_cai_dat: Đang cài đặt
 cai_dat_xong: Cài đặt xong
 ban_muon_quay_lai_memu_khong: Bạn có muốn quay lại Memu không ?
 chon_phien_ban_xui: Chọn phiên bản X-UI
+nhap_username: Nhập username
+nhap_password: Nhập password
+nhap_port: Nhập port
