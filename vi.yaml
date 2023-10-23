@@ -45,3 +45,4 @@ nhap_username: Nhập username
 nhap_password: Nhập password
 nhap_port: Nhập port
 ban_co_muon_install_khong: Bạn có muốn cài đặt không ?
+ban_co_muon_xoa_database_cu_khong: Bạn có muốn xóa Database cũ không ?
