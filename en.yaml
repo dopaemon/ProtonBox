@@ -46,3 +46,4 @@ nhap_port: Enter port
 ban_co_muon_install_khong: Do you want install ?
 ban_co_muon_xoa_database_cu_khong: Do you want remove old Database ?
 ban_co_muon_quay_lai_proton_khong: Do you want return ProtonBox menu ?
+chon_phien_ban_soga: Select Soga version
