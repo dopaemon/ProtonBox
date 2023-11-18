@@ -1,5 +1,5 @@
 # ProtonBox
-
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=dopaemon.protonbox)
 ## [**Hướng dẫn dùng ProtonBox Cũ**](https://youtu.be/QkuMvPy8dVY?si=k8iXwGo8o4Crma2i)
 ## [**Hướng dẫn dùng ProtonBox Mới**](https://youtu.be/SviMxtEmaTk?si=qPIg_kgkN9hLAb-e)
 
