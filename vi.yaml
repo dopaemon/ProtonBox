@@ -16,7 +16,7 @@ nhap_noi_dung_file_key: Nhập nội dung file key
 loi_khi_ghi_vao_tep: Lỗi khi ghi vào tệp
 ban_muon_bao_nhieu_port: Bạn muốn bao nhiêu Port
 chon_it_nhat_mot_lua_chon: Chọn ít nhất một lựa chọn
-loi: Lỗi
+loi: Lỗi - contact https://t.me/KernelPanix
 vui_long_chon_lai: Vui lòng chọn lại
 nhap_api_host: Nhập API host
 nhap_api_key: Nhập API key
@@ -54,3 +54,4 @@ fix_port: Sửa port
 nhap_port: Nhập port
 single_port: Port đơn
 multi_port: Tất cả port
+system_setup: Cài đặt hệ thống

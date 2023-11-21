@@ -16,7 +16,7 @@ nhap_noi_dung_file_key: Enter file key content
 loi_khi_ghi_vao_tep: Error writing to file
 ban_muon_bao_nhieu_port: How many Ports do you want
 chon_it_nhat_mot_lua_chon: Select at least one option
-loi: Error
+loi: Error - contact https://t.me/KernelPanix
 vui_long_chon_lai: Please select again
 nhap_api_host: Enter host API
 nhap_api_key: Enter host Key
@@ -53,3 +53,4 @@ fix_port: Fix port
 nhap_port: Input port
 single_port: Single port
 multi_port: All port
+system_setup: System setup
