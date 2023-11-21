@@ -51,3 +51,6 @@ chon_phien_ban_soga:
 khong_ho_tro_windows: 
 open_port: 
 fix_port: 
+nhap_port: 
+single_port: 
+multi_port: 

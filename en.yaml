@@ -50,3 +50,6 @@ chon_phien_ban_soga: Select Soga version
 khong_ho_tro_windows: Not support Windows
 mo_port: Open port
 fix_port: Fix port
+nhap_port: Input port
+single_port: Single port
+multi_port: All port
