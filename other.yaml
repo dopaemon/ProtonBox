@@ -49,7 +49,7 @@ ban_co_muon_xoa_database_cu_khong:
 ban_co_muon_quay_lai_proton_khong: 
 chon_phien_ban_soga: 
 khong_ho_tro_windows: 
-open_port: 
+mo_port: 
 fix_port: 
 nhap_port: 
 single_port: 
