@@ -76,20 +76,20 @@ fi
 install_base() {
     echo -e "${green}Đang cài đặt ProtonBox! ${plain}\n"
     if [[ x"${release}" == x"centos" ]]; then
-        yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo > /dev/null 2>&1
-        yum update > /dev/null 2>&1
-        yum install epel-release -y > /dev/null 2>&1
-        yum install wget curl ufw tmux unzip tar crontabs git socat yum-utils device-mapper-persistent-data lvm2 docker-ce docker-ce-cli containerd.io psmisc -y > /dev/null 2>&1
-        systemctl enable docker > /dev/null 2>&1
-        systemctl start docker > /dev/null 2>&1
+        yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+        yum update
+        yum install epel-release -y
+        yum install wget curl ufw tmux unzip tar crontabs git socat yum-utils device-mapper-persistent-data lvm2 docker-ce docker-ce-cli containerd.io psmisc -y
+        systemctl enable docker
+        systemctl start docker
     else
-        apt update -y > /dev/null 2>&1
-        apt install wget ufw tmux curl unzip tar cron git socat ca-certificates gnupg lsb-release psmisc -y > /dev/null 2>&1
-        curl -fsSL https://download.docker.com/linux/${release}/gpg | sudo gpg --yes --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg > /dev/null 2>&1
-        echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/${release} $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 2>&1
-        apt-get update > /dev/null 2>&1
-        apt-get install docker-ce docker-ce-cli containerd.io -y > /dev/null 2>&1
-        systemctl enable docker.service > /dev/null 2>&1
+        apt-get update -y
+        apt-get install wget ufw tmux curl unzip tar cron git socat ca-certificates gnupg lsb-release psmisc -y
+        curl -fsSL https://download.docker.com/linux/${release}/gpg | sudo gpg --yes --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+        echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/${release} $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
+        apt-get update -y
+        apt-get install docker-ce docker-ce-cli containerd.io
+        systemctl enable docker.service
     fi
 }
 
@@ -98,7 +98,7 @@ install_proton() {
         echo "net.ipv6.conf.default.disable_ipv6 = 1" >> /etc/sysctl.conf
         sysctl -p > /dev/null 2>&1
         rm -rf /usr/bin/proton
-        wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch} > /dev/null 2>&1
+        wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
         chmod +x /usr/bin/proton
 }
 
