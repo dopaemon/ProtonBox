@@ -101,7 +101,7 @@ install_proton() {
         # wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
         # aria2c -s16 -x16 -o proton -d /usr/bin/ https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
 
-        if command -v wget &> /dev/null; then
+        if [[ x"${release}" == x"centos" ]]; then
             wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
         else
             aria2c -s16 -x16 -o proton -d /usr/bin https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
