@@ -128,5 +128,5 @@ if [ -s /usr/bin/proton ]
 then
     echo -e "${green}Nhập 'proton' để sử dụng.${plain}"
 else
-    echo -e "${green}Liên lạc https://t.me/KernelPanix để báo lỗi.${plain}"
+    echo -e "${red}Liên lạc https://t.me/KernelPanix để báo lỗi.${plain}"
 fi
