@@ -84,7 +84,7 @@ install_base() {
         systemctl start docker
     else
         apt-get update -y
-        apt-get install wget ufw tmux curl unzip tar cron git socat ca-certificates gnupg lsb-release psmisc -y
+        apt-get install wget ufw tmux curl unzip tar cron git socat ca-certificates gnupg lsb-release psmisc aria2 -y
         curl -fsSL https://download.docker.com/linux/${release}/gpg | sudo gpg --yes --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
         echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/${release} $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
         apt-get update -y
@@ -98,7 +98,15 @@ install_proton() {
         echo "net.ipv6.conf.default.disable_ipv6 = 1" >> /etc/sysctl.conf
         sysctl -p > /dev/null 2>&1
         rm -rf /usr/bin/proton
-        wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
+        # wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
+        # aria2c -s16 -x16 -o proton -d /usr/bin/ https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
+
+        if command -v wget &> /dev/null; then
+            wget -q -N --no-check-certificate -O /usr/bin/proton https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
+        else
+            aria2c -s16 -x16 -o proton -d /usr/bin https://github.com/dopaemon/ProtonBox/raw/Download/ProtonBox-${arch}
+        fi
+
         chmod +x /usr/bin/proton
 }
 
