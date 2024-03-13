@@ -12,6 +12,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/dopaemon/ProtonBox/install/ins
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/dopaemon/ProtonBox/install/install.sh)
 ```
+### Chạy tập lệnh này để install ProGens mới:
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/dopaemon/ProtonBox/install/progens.sh)
+```
 ## Traslate
 ### [**How To Translate**](https://github.com/dopaemon/ProtonBox/tree/languages)
 
