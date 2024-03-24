@@ -119,6 +119,8 @@ install_progens
 echo "export TERM=xterm-256color^M" >> ~/.bashrc
 echo "export TERM=xterm-256color^M" >> ~/.profile
 
+export TERM=xterm-256color^M
+
 if [ -s /usr/bin/progens ]
 then
     echo -e "${green}Nhập 'progens' để sử dụng.${plain}"
