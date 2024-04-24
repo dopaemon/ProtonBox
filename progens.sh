@@ -116,8 +116,8 @@ install_base
 
 install_progens
 
-echo "export TERM=xterm-256color^M" >> ~/.bashrc
-echo "export TERM=xterm-256color^M" >> ~/.profile
+echo "export TERM=xterm-256color" >> ~/.bashrc
+echo "export TERM=xterm-256color" >> ~/.profile
 
 export TERM=xterm-256color^M
 
