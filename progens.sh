@@ -76,10 +76,11 @@ fi
 install_base() {
     echo -e "${green}Đang cài đặt ProGens! ${plain}\n"
     if [[ x"${release}" == x"centos" ]]; then
-        yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
         yum update
+        yum install -y yum-utils device-mapper-persistent-data lvm2
         yum install epel-release -y
-        yum install wget curl ufw tmux unzip tar crontabs git socat yum-utils device-mapper-persistent-data lvm2 docker-ce docker-ce-cli containerd.io psmisc -y
+        yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+        yum install wget curl ufw tmux unzip tar crontabs git socat yum-utils device-mapper-persistent-data lvm2 docker psmisc -y
         systemctl enable docker
         systemctl start docker
     else
