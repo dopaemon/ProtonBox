@@ -26,7 +26,9 @@ Bank:
 - Cake ```0325555077```.
 - ACB ```5613177```.
 
-Coin: USDT (TRC20) ```TYfNrngg74avxCoeraCD1zkgqD9BRyUuqY```
+Coin: USDT (TRC20) 
+- TRC20/TRON: ```TYfNrngg74avxCoeraCD1zkgqD9BRyUuqY```
+- Polygon: ```0xEB23bdeDC895549EB563e8ca624a42eb6b5bCe51```
 
 Coin: VNDC (BEP20) ```0xEB23bdeDC895549EB563e8ca624a42eb6b5bCe51```
 
